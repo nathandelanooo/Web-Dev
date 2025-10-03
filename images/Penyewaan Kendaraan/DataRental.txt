@@ -1,0 +1,9 @@
+RentalID : 500
+Petugas  : loki
+Penyewa  : deso
+Plat     : B 4351 CPK
+Merk     : Honda
+Model    : Beat
+Lama Sewa: 2 hari
+Total Biaya: 150000.0
+-----------------------------------

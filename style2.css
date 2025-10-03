@@ -1,0 +1,250 @@
+body{
+    background-image: url(images/images.png);
+    
+}
+*{
+    padding: 0; margin: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+.menu{
+    height: 953px;
+}
+.menuatas{
+    padding: 0px 20px 0px 20px;
+    width: 960px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+}
+.menuatas .menukiri{
+    width: 350px;
+}
+.menukiri h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    
+}
+.menuatas .menukanan{
+    width: 630px;
+    text-align: right;
+}
+.menuatas .menukanan a{
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+.menukanan a.active{
+    color: goldenrod;
+}
+.isiguide {
+  position: relative;      
+  width: 1000px;          
+}
+.isiguide h1 {
+  position: absolute;
+  bottom: 120px;            
+  left: 340px;               
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.guidesc{
+    position: absolute;
+    bottom: 200px;
+    display: flex;
+    left: 425px;
+}
+.guidesc a,
+.guidesc p{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-family: monospace;
+}
+.guidesc a:hover{
+    color: goldenrod;
+    -webkit-transition: color 1s ease;
+    -moz-transition: color 1s ease;
+    -ms-transition: color 1s ease;
+    -o-transition: color 1s ease;
+    transition: color 1s ease;
+}
+.detailbackground{
+    background-color: white;
+}
+.imgdetail{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    padding-top: 100px;
+}
+.imgdetail .gambardetail{
+    width: 200px;
+    margin: auto;
+    height: 250px;
+}
+.boxgambar{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+.gambardetail img{
+    width: 100%;
+    height: 100%;
+}
+.gambardetail h3{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.gambardetail p{
+    text-align: center;
+    color: grey;
+    font-family: monospace;
+    font-size: 15px;
+}
+.gambardetail .alonebox{
+    color: grey;
+    text-align: center;
+}
+.form{
+    width: 1000px;
+    margin: auto;
+    height: 700px;
+    display: flex;
+}
+.formkiri{
+    float: left;
+    width: 500px;
+}
+.formkiri img{
+    width: 500px;
+}
+.formkanan{
+    float: right;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+}
+.tombolkanan p{
+    text-align: center;
+    color: white;
+    background-color: orangered;
+    width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    float: left;
+    margin-top: 10px;
+    font-size: 20px
+}
+input{
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 450px;
+    border-radius: 5px;
+    float: left;
+}
+textarea{
+    float: left;
+    border-radius: 5px;
+    width: 450px;
+    height: 100px;
+    padding: 20px;
+}
+.last{
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    position: relative;
+    height: 200px;
+}
+
+.lasttext h2,
+.lasttext p{
+    position: absolute;
+}
+.lasttext h2{
+    top: 50px;
+    left: 150px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lasttext p{
+    left: 125px;
+    bottom: 60px;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    width: 750px;
+}
+.last img{
+    width: 1000px;
+    height: 200px;
+}
+.lastbox {
+    background-color: orangered;
+    position: absolute;
+    bottom: 20px;
+    left: 400px;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+    font-family: monospace;
+}
+.endbox{
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    height: 500px;
+    margin-top: 50px;
+}
+.isiendbox{
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    box-shadow: 3px 3px lightgrey;
+    padding: 60px 20px 40px 20px;
+    margin: auto;
+}
+.isiendbox p{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    color: grey;
+}
+.isiendbox h3{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.isiendbox img{
+    width: 25px;
+    border-radius: 50%;
+}
+footer{
+    width: 100%;
+    background-color: white;
+
+}
+.footend{
+    width: 970px;
+    margin: auto;
+    padding: 10px;
+}
+.footend p{
+    margin: 0;
+    text-align: center;
+}
